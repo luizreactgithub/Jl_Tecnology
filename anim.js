@@ -7,13 +7,13 @@ var i = 1
 var timer
 var timer_2
 
-
+picture=1;
 interval()
 
 function interval(){
  
 i=1;
-picture=1;
+
 
 switch(picture) {
    case 1:
