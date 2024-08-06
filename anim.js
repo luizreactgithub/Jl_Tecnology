@@ -20,43 +20,19 @@ i=1;
 
 switch(picture) {
    case 1:
-       //faz com o elemente seja "inclicavel" pra nao aumentar a velocidade da animaçao caso clique mais de um vez
-       document.getElementById("px_1").style.pointerEvents="none"
-       document.getElementById("px_2").style.pointerEvents="none"
-       document.getElementById("px_3").style.pointerEvents="none"
-               //opacidade
-              document.getElementById("px_1").style.opacity="0.2"
-              document.getElementById("px_2").style.opacity="0.2"
-              document.getElementById("px_3").style.opacity="0.2"
            
-       timer=  setInterval(animation ,45);
+   animation();
 
        break;
    case 2:
      
-       document.getElementById("px_1").style.pointerEvents="none"
-       document.getElementById("px_2").style.pointerEvents="none"
-       document.getElementById("px_3").style.pointerEvents="none"
-               //opacidade
-              document.getElementById("px_1").style.opacity="0.2"
-              document.getElementById("px_2").style.opacity="0.2"
-              document.getElementById("px_3").style.opacity="0.2"
-
-       timer_2=  setInterval(animation_2 ,45);
+   animation_2();
 
 
        break;
    case 3:
-       
-      document.getElementById("px_1").style.pointerEvents="none"
-      document.getElementById("px_2").style.pointerEvents="none"
-      document.getElementById("px_3").style.pointerEvents="none"
-             //opacidade
-             document.getElementById("px_1").style.opacity="0.2"
-             document.getElementById("px_2").style.opacity="0.2"
-             document.getElementById("px_3").style.opacity="0.2"
 
-       timer_3=  setInterval(animation_3 ,45);
+   animation_3();
 
 
        break;
@@ -73,65 +49,14 @@ function animation(){
  //suporte de imagem pra mobile 
    if(larguraTela <= 1220){
   
-      document.getElementById("main").src="carrosel/mobile_unreal/unreal ("+i+").jpg"; 
+      document.getElementById("main").src="carrosel/mobile_unreal/unreal.jpg"; 
     
-     
-     //################################################################################## repetiçao    
-      if(i >= 22){ 
-      
-         //reseta o interval zerando a velocidade 
-         clearInterval(timer)
-        
-      //volta a ser clicavel
-      document.getElementById("px_3").style.pointerEvents="auto"
-      document.getElementById("px_2").style.pointerEvents="auto"
-      document.getElementById("px_1").style.pointerEvents="auto"
-                //opacidade
-                document.getElementById("px_1").style.opacity="1"
-                document.getElementById("px_2").style.opacity="1"
-                document.getElementById("px_3").style.opacity="1"
-    
-    
-    
-             }else{ 
-        
-              i++ 
-       
-       }
-   
-    //################################################################################## repetiçao    
    
    }else{
 
-      document.getElementById("main").src="carrosel/unreal/unreal ("+i+").jpg"; 
+      document.getElementById("main").src="carrosel/unreal/unreal.jpg"; 
 
-      
-    
-     //################################################################################## repetiçao    
-     if(i >= 25){ 
-      
-      //reseta o interval zerando a velocidade 
-      clearInterval(timer)
-     
-   //volta a ser clicavel
-   document.getElementById("px_3").style.pointerEvents="auto"
-   document.getElementById("px_2").style.pointerEvents="auto"
-   document.getElementById("px_1").style.pointerEvents="auto"
-             //opacidade
-             document.getElementById("px_1").style.opacity="1"
-             document.getElementById("px_2").style.opacity="1"
-             document.getElementById("px_3").style.opacity="1"
- 
- 
- 
-          }else{ 
-     
-           i++ 
-    
-    }
-
-    //################################################################################## repetiçao    
-
+   
     }
     
 
@@ -145,63 +70,14 @@ function animation_2(){
  //suporte de imagem pra mobile 
  if(larguraTela <= 1220){
    
-   document.getElementById("main").src="carrosel/mobile_gta/gta ("+i+").jpg"; 
+   document.getElementById("main").src="carrosel/mobile_gta/gta.jpg"; 
 
-        //################################################################################## repetiçao    
-        if(i >= 22){ 
-      
-         //reseta o interval zerando a velocidade 
-         clearInterval(timer_2)
-        
-      //volta a ser clicavel
-      document.getElementById("px_3").style.pointerEvents="auto"
-      document.getElementById("px_2").style.pointerEvents="auto"
-      document.getElementById("px_1").style.pointerEvents="auto"
-                //opacidade
-                document.getElementById("px_1").style.opacity="1"
-                document.getElementById("px_2").style.opacity="1"
-                document.getElementById("px_3").style.opacity="1"
-    
-    
-    
-             }else{ 
-        
-              i++ 
-       
-       }
-   
-    //################################################################################## repetiçao    
+         
     
  }else{
 
-   document.getElementById("main").src="carrosel/gta/gta ("+i+").jpg"; 
+   document.getElementById("main").src="carrosel/gta/gta.jpg"; 
 
-
-
-     //################################################################################## repetiçao    
-     if(i >= 25){ 
-      
-      //reseta o interval zerando a velocidade 
-      clearInterval(timer_2)
-     
-   //volta a ser clicavel
-   document.getElementById("px_3").style.pointerEvents="auto"
-   document.getElementById("px_2").style.pointerEvents="auto"
-   document.getElementById("px_1").style.pointerEvents="auto"
-             //opacidade
-             document.getElementById("px_1").style.opacity="1"
-             document.getElementById("px_2").style.opacity="1"
-             document.getElementById("px_3").style.opacity="1"
- 
- 
- 
-          }else{ 
-     
-           i++ 
-    
-    }
-
- //################################################################################## repetiçao    
 
 
 
@@ -221,61 +97,15 @@ function animation_3(){
  //suporte de imagem pra mobile 
  if(larguraTela <= 1220){
   
-   document.getElementById("main").src="carrosel/mobile_ia/ia ("+i+").jpg"; 
+   document.getElementById("main").src="carrosel/mobile_ia/ia.jpg"; 
 
-        //################################################################################## repetiçao    
-        if(i >= 23){ 
-      
-         //reseta o interval zerando a velocidade 
-         clearInterval(timer_3)
         
-      //volta a ser clicavel
-      document.getElementById("px_3").style.pointerEvents="auto"
-      document.getElementById("px_2").style.pointerEvents="auto"
-      document.getElementById("px_1").style.pointerEvents="auto"
-                //opacidade
-                document.getElementById("px_1").style.opacity="1"
-                document.getElementById("px_2").style.opacity="1"
-                document.getElementById("px_3").style.opacity="1"
-    
-    
-    
-             }else{ 
-        
-              i++ 
-       
-       }
-   
-    //################################################################################## repetiçao    
     
  }else{
    
-   document.getElementById("main").src="carrosel/ia/ia ("+i+").jpg"; 
+   document.getElementById("main").src="carrosel/ia/ia.jpg"; 
 
-        //################################################################################## repetiçao    
-        if(i >= 25){ 
-      
-         //reseta o interval zerando a velocidade 
-         clearInterval(timer_3)
-        
-      //volta a ser clicavel
-      document.getElementById("px_3").style.pointerEvents="auto"
-      document.getElementById("px_2").style.pointerEvents="auto"
-      document.getElementById("px_1").style.pointerEvents="auto"
-                //opacidade
-                document.getElementById("px_1").style.opacity="1"
-                document.getElementById("px_2").style.opacity="1"
-                document.getElementById("px_3").style.opacity="1"
-    
-    
-    
-             }else{ 
-        
-              i++ 
-       
-       }
-   
-    //################################################################################## repetiçao    
+
    
  }
 
