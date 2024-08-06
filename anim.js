@@ -6,10 +6,7 @@
 var i = 1
 var timer
 var timer_2
-var timer_3
-var picture=1
 
-document.getElementById("main").src="carrosel/mobile_unreal/unreal.jpg;
 
 interval()
 
