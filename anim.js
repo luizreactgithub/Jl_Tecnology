@@ -13,7 +13,7 @@ interval()
 function interval(){
  
 i=1;
-
+picture=1;
 
 switch(picture) {
    case 1:
