@@ -788,7 +788,14 @@ section#_1 div#text p{
 
 
 /*##############################################################################################################*/
-      
+              
+section#_mobi {
+  display:none;
+
+  }
+
+
+
       
       section#_0 {
         display:flex;
@@ -1414,6 +1421,12 @@ section#_1 {
 
 /*################################################################################################################*/
       
+section#_mobi {
+  
+  display:none;
+
+}
+
        
 section#_0 {
   display:flex;
@@ -2047,6 +2060,12 @@ section#_0 img#main{
   
   /*################################################################################################################*/
         
+  section#_mobi {
+    
+    display:none;
+  
+  }
+  
          
   section#_0 {
     display:flex;
@@ -2689,6 +2708,11 @@ img#icon{
    
       /*################################################################################################################*/
       
+      section#_mobi {
+        display:none;
+      
+        }
+      
       
       section#_0 {
         display:flex;
@@ -3184,7 +3208,36 @@ section#_1 {
 
 /*################################################################################################################*/
         
-      
+section#_mobi {
+  display:none;
+  position:relative;
+  width:auto;
+  left:0px;
+  top:150px;
+  height:600px;
+  justify-content: center;
+  align-items: center;
+  }
+
+section#_mobi div#radios{
+
+  display:none;
+  position:absolute;
+  gap:20px;
+  top:700px;
+  padding:10px;
+  border-radius:10px;
+}
+
+
+ div#radios_2 input{
+
+  width: 15px;
+  height: 15px;
+
+}
+
+
 section#_0 {
   display:flex;
   position:relative;
@@ -3964,38 +4017,55 @@ width:auto;
     }
     
      /*################################################################################################################*/
-          
-          
-     section#_0{
-      display:flex;
-      position:absolute;
-      width:auto;
-      top:500px;
-      height:600px;
-      justify-content: left;
-      align-items: left;
+     section#_0 {
+      display:none;
+    
       }
-
-      section#_0 div#radios{
+    
+      section#_mobi img#main_2{
 
         display:flex;
-        position:absolute;
-        gap:50px;
-        top:817px;
-        left:500px;
+        position:relative;
+        top:-330px;
+        width:1220px;
+        height:1270px;
         justify-content: center;
-        padding:15px;
-        border-radius:10px;
-      }
+        align-items: center;
 
-      div#radios input{
+      }    
 
-        width: 38px;
-        height: 38px;
+      section#_mobi{
+        display:flex;
+        position:absolute;
+        width:auto;
+        top:500px;
+        height:600px;
+        justify-content: left;
+        align-items: left;
+        }
+  
+        section#_mobi div#radios_2{
+  
+          display:flex;
+          position:absolute;
+          gap:50px;
+          top:817px;
+          left:500px;
+          justify-content: center;
+          padding:15px;
+          border-radius:10px;
+        }
+  
+        div#radios_2 input{
+  
+          width: 38px;
+          height: 38px;
+  
+        }
+    
+    
 
-      }
-
-     input#px_1[type="radio"]:checked{
+     input#px_10[type="radio"]:checked{
        
        -webkit-appearance: none;
         background-color: #4F4F4F;
@@ -4004,7 +4074,7 @@ width:auto;
         width: 38px;
         height: 38px;
 
-    }input#px_2[type="radio"]:checked{
+    }input#px_20[type="radio"]:checked{
         
         -webkit-appearance: none;
          background-color: #4F4F4F;
@@ -4013,7 +4083,7 @@ width:auto;
          width: 38px;
          height: 38px;
 
-     }input#px_3[type="radio"]:checked{
+     }input#px_30[type="radio"]:checked{
          
          -webkit-appearance: none;
           background-color: #4F4F4F;
@@ -4024,17 +4094,7 @@ width:auto;
 
       }
 
-      section#_0 img#main{
-
-        display:flex;
-        position:relative;
-        top:0px;
-        width:1220px;
-        height:1270px;
-        justify-content: center;
-        align-items: center;
-
-      }
+     
     /*________________*/
     
   }
@@ -4352,7 +4412,11 @@ section#last {
 
 
    /*################################################################################################################*/
-      
+   section#_mobi {
+    display:none;
+  
+    }
+  
 
    section#_0 {
     display:flex;

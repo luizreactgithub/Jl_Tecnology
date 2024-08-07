@@ -6,8 +6,12 @@
 var i = 1
 var timer
 var timer_2
+var timer_3
+var picture=1
 
-picture=1;
+document.getElementById("main_2").src="carrosel/mobile_unreal/unreal.jpg"; 
+document.getElementById("main").src="carrosel/unreal/unreal.jpg"; 
+
 interval()
 
 function interval(){
@@ -46,7 +50,7 @@ function animation(){
  //suporte de imagem pra mobile 
    if(larguraTela <= 1220){
   
-      document.getElementById("main").src="carrosel/mobile_unreal/unreal.jpg"; 
+      document.getElementById("main_2").src="carrosel/mobile_unreal/unreal.jpg"; 
     
    
    }else{
@@ -67,7 +71,7 @@ function animation_2(){
  //suporte de imagem pra mobile 
  if(larguraTela <= 1220){
    
-   document.getElementById("main").src="carrosel/mobile_gta/gta.jpg"; 
+   document.getElementById("main_2").src="carrosel/mobile_gta/gta.jpg"; 
 
          
     
@@ -94,7 +98,7 @@ function animation_3(){
  //suporte de imagem pra mobile 
  if(larguraTela <= 1220){
   
-   document.getElementById("main").src="carrosel/mobile_ia/ia.jpg"; 
+   document.getElementById("main_2").src="carrosel/mobile_ia/ia.jpg"; 
 
         
     
@@ -118,8 +122,13 @@ function first(){
    document.getElementById("px_1").checked=true;
    document.getElementById("px_2").checked=false;
    document.getElementById("px_3").checked=false;
+
+   document.getElementById("px_10").checked=true;
+   document.getElementById("px_20").checked=false;
+   document.getElementById("px_30").checked=false;
    picture=1
    interval()
+
 
 }
 function two(){
@@ -127,8 +136,14 @@ function two(){
    document.getElementById("px_1").checked=false;
    document.getElementById("px_2").checked=true;
    document.getElementById("px_3").checked=false;
+
+   document.getElementById("px_10").checked=false;
+   document.getElementById("px_20").checked=true;
+   document.getElementById("px_30").checked=false;
    picture=2
    interval()
+
+  
 
 }
 function three(){
@@ -136,8 +151,14 @@ function three(){
    document.getElementById("px_1").checked=false;
    document.getElementById("px_2").checked=false;
    document.getElementById("px_3").checked=true;
+
+      
+   document.getElementById("px_10").checked=false;
+   document.getElementById("px_20").checked=false;
+   document.getElementById("px_30").checked=true;
    picture=3
    interval()
+
 
 
 
