@@ -7,10 +7,39 @@ var i = 1
 var timer
 var timer_2
 var timer_3
-var picture=1
+var picture;
 
 document.getElementById("main_2").src="carrosel/mobile_unreal/unreal.jpg"; 
 document.getElementById("main").src="carrosel/unreal/unreal.jpg"; 
+
+
+
+
+// Jeito que eu encontrei de pré carregar a animação pra nao ficar com aquela animação curta e feia no inicio
+
+setTimeout(function() {
+
+  two();
+  document.getElementById("anim").style.position="relative";
+}, 2000)
+  
+
+setTimeout(function() {
+
+  three();
+  document.getElementById("anim").style.position="relative";
+}, 4000)
+  
+
+setTimeout(function() {
+
+  first();
+  document.getElementById("anim").style.position="relative";
+}, 6000)
+  
+
+// ***********************************************************************************************************/
+  
 
 interval()
 
@@ -21,7 +50,7 @@ i=1;
 
 switch(picture) {
    case 1:
-           
+
    animation();
 
        break;
@@ -55,7 +84,26 @@ function animation(){
    
    }else{
 
+
+       document.getElementById("anim").style.position="absolute";
+       document.getElementById("anim").style.animationName="carrosel";
+       document.getElementById("anim").style.display="flex";
+       document.getElementById("anim").style.animationDuration="1s";
+
+       document.getElementById("anim").style.animationIterationCount="infinite";
+       document.getElementById("anim").style.animationDelay="0s";
+     
+       setTimeout(function() {
+ 
+
+        document.getElementById("anim").style.display="none";
+  
+
+      }, 970)
+
       document.getElementById("main").src="carrosel/unreal/unreal.jpg"; 
+
+
 
    
     }
@@ -76,6 +124,26 @@ function animation_2(){
          
     
  }else{
+
+
+  document.getElementById("anim").style.position="absolute";
+  document.getElementById("anim").style.animationName="carrosel2";
+  document.getElementById("anim").style.display="flex";
+  document.getElementById("anim").style.animationDuration="1s";
+
+  document.getElementById("anim").style.animationIterationCount="infinite";
+  document.getElementById("anim").style.animationDelay="0s";
+
+  setTimeout(function() {
+
+
+   document.getElementById("anim").style.display="none";
+
+
+ }, 970)
+
+
+
 
    document.getElementById("main").src="carrosel/gta/gta.jpg"; 
 
@@ -103,6 +171,26 @@ function animation_3(){
         
     
  }else{
+
+
+
+  
+  document.getElementById("anim").style.position="absolute";
+  document.getElementById("anim").style.animationName="carrosel3";
+  document.getElementById("anim").style.display="flex";
+  document.getElementById("anim").style.animationDuration="1s";
+
+  document.getElementById("anim").style.animationIterationCount="infinite";
+  document.getElementById("anim").style.animationDelay="0s";
+
+  setTimeout(function() {
+
+
+   document.getElementById("anim").style.display="none";
+
+
+ }, 970)
+
    
    document.getElementById("main").src="carrosel/ia/ia.jpg"; 
 

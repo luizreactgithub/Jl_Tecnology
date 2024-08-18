@@ -2,7 +2,784 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100&display=swap');
 
+/*animaçao carrosel*/
+@keyframes carrosel{
 
+  0%{
+   
+   
+    background-image:url("carrosel/unreal/unreal (1).jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    
+  
+  }
+  
+  
+  10%{
+    
+
+    background-image:url("carrosel/unreal/unreal (2).jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+   
+  
+  
+   }
+  
+  
+  20%{
+    background-image:url("carrosel/unreal/unreal (3).jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+   
+    
+   }
+   
+  
+  25%{
+    
+    background-image:url("carrosel/unreal/unreal (4).jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    
+  }
+  
+  
+  30%{
+    
+    background-image:url("carrosel/unreal/unreal (5).jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+  
+  }
+  
+  
+  40%{
+   
+    background-image:url("carrosel/unreal/unreal (6).jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+   
+  }
+  
+
+  43%{
+   
+    background-image:url("carrosel/unreal/unreal (7).jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+   
+  }
+
+  47%{
+   
+    background-image:url("carrosel/unreal/unreal (8).jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+   
+  }
+
+  50%{
+  
+    background-image:url("carrosel/unreal/unreal (9).jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+  }
+  
+
+  53%{
+  
+    background-image:url("carrosel/unreal/unreal (10).jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+  }
+  
+
+
+  55%{
+  
+    background-image:url("carrosel/unreal/unreal (11).jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+  }
+  
+
+  58%{
+  
+    background-image:url("carrosel/unreal/unreal (12).jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+  }
+  
+
+
+
+  60%{
+    
+    background-image:url("carrosel/unreal/unreal (13).jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+  
+  }
+
+
+  63%{
+    
+    background-image:url("carrosel/unreal/unreal (14).jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+  
+  }
+  
+
+  
+  68%{
+    
+    background-image:url("carrosel/unreal/unreal (15).jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+  
+  }
+  
+  
+  
+  70%{
+    
+    background-image:url("carrosel/unreal/unreal (16).jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+   
+  }
+  
+  73%{
+    
+    background-image:url("carrosel/unreal/unreal (17).jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+  
+  }
+  
+  
+  74%{
+    
+    background-image:url("carrosel/unreal/unreal (18).jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+   
+  }
+  
+  75%{
+   
+    background-image:url("carrosel/unreal/unreal (19)");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    
+  }
+  
+  
+  
+  80%{
+   
+    background-image:url("carrosel/unreal/unreal (20)");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+  
+  }
+  
+  
+  90%{
+    
+    background-image:url("carrosel/unreal/unreal (21)");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+   
+  }
+  
+  
+  92%{
+   
+    background-image:url("carrosel/unreal/unreal (22)");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+  
+  }
+  
+  
+  95%{
+    
+    background-image:url("carrosel/unreal/unreal (23)");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+  }
+  
+
+
+  98%{
+    
+    background-image:url("carrosel/unreal/unreal (24)");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+  }
+  
+  100%{
+    
+    background-image:url("carrosel/unreal/unreal (25)");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+  
+    
+  }
+  
+  }
+  
+    /*_________________________________________________________________*/
+
+
+/*animaçao carrosel2*/
+@keyframes carrosel2{
+
+  0%{
+   
+   
+    background-image:url("carrosel/gta/gta (1).jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    
+  
+  }
+  
+  
+  10%{
+    
+
+    background-image:url("carrosel/gta/gta (2).jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+   
+  
+  
+   }
+  
+  
+  20%{
+    background-image:url("carrosel/gta/gta (3).jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+   
+    
+   }
+   
+  
+  25%{
+    
+    background-image:url("carrosel/gta/gta (4).jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    
+  }
+  
+  
+  30%{
+    
+    background-image:url("carrosel/gta/gta (5).jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+  
+  }
+  
+  
+  40%{
+   
+    background-image:url("carrosel/gta/gta (6).jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+   
+  }
+  
+
+  43%{
+   
+    background-image:url("carrosel/gta/gta (7).jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+   
+  }
+
+  47%{
+   
+    background-image:url("carrosel/gta/gta (8).jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+   
+  }
+
+  50%{
+  
+    background-image:url("carrosel/gta/gta (9).jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+  }
+  
+
+  53%{
+  
+    background-image:url("carrosel/gta/gta (10).jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+  }
+  
+
+
+  55%{
+  
+    background-image:url("carrosel/gta/gta (11).jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+  }
+  
+
+  58%{
+  
+    background-image:url("carrosel/gta/gta (12).jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+  }
+  
+
+
+
+  60%{
+    
+    background-image:url("carrosel/gta/gta (13).jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+  
+  }
+
+
+  63%{
+    
+    background-image:url("carrosel/gta/gta (14).jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+  
+  }
+  
+
+  
+  68%{
+    
+    background-image:url("carrosel/gta/gta (15).jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+  
+  }
+  
+  
+  
+  70%{
+    
+    background-image:url("carrosel/gta/gta (16).jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+   
+  }
+  
+  73%{
+    
+    background-image:url("carrosel/gta/gta (17).jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+  
+  }
+  
+  
+  74%{
+    
+    background-image:url("carrosel/gta/gta (18).jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+   
+  }
+  
+  75%{
+   
+    background-image:url("carrosel/gta/gta (19)");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    
+  }
+  
+  
+  
+  80%{
+   
+    background-image:url("carrosel/gta/gta (20)");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+  
+  }
+  
+  
+  90%{
+    
+    background-image:url("carrosel/gta/gta (21)");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+   
+  }
+  
+  
+  92%{
+   
+    background-image:url("carrosel/gta/gta (22)");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+  
+  }
+  
+  
+  95%{
+    
+    background-image:url("carrosel/gta/gta (23)");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+  }
+  
+
+
+  98%{
+    
+    background-image:url("carrosel/gta/gta (24)");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+  }
+  
+  100%{
+    
+    background-image:url("carrosel/gta/gta (25)");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+  
+    
+  }
+  
+  }
+  
+    /*_________________________________________________________________*/
+
+
+/*animaçao carrosel3*/
+@keyframes carrosel3{
+
+  0%{
+   
+   
+    background-image:url("carrosel/ia/ia (1).jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    
+  
+  }
+  
+  
+  10%{
+    
+
+    background-image:url("carrosel/ia/ia (2).jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+   
+  
+  
+   }
+  
+  
+  20%{
+    background-image:url("carrosel/ia/ia (3).jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+   
+    
+   }
+   
+  
+  25%{
+    
+    background-image:url("carrosel/ia/ia (4).jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    
+  }
+  
+  
+  30%{
+    
+    background-image:url("carrosel/ia/ia (5).jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+  
+  }
+  
+  
+  40%{
+   
+    background-image:url("carrosel/ia/ia (6).jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+   
+  }
+  
+
+  43%{
+   
+    background-image:url("carrosel/ia/ia (7).jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+   
+  }
+
+  47%{
+   
+    background-image:url("carrosel/ia/ia (8).jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+   
+  }
+
+  50%{
+  
+    background-image:url("carrosel/ia/ia (9).jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+  }
+  
+
+  53%{
+  
+    background-image:url("carrosel/ia/ia (10).jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+  }
+  
+
+
+  55%{
+  
+    background-image:url("carrosel/ia/ia (11).jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+  }
+  
+
+  58%{
+  
+    background-image:url("carrosel/ia/ia (12).jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+  }
+  
+
+
+
+  60%{
+    
+    background-image:url("carrosel/ia/ia (13).jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+  
+  }
+
+
+  63%{
+    
+    background-image:url("carrosel/ia/ia (14).jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+  
+  }
+  
+
+  
+  68%{
+    
+    background-image:url("carrosel/ia/ia (15).jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+  
+  }
+  
+  
+  
+  70%{
+    
+    background-image:url("carrosel/ia/ia (16).jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+   
+  }
+  
+  73%{
+    
+    background-image:url("carrosel/ia/ia (17).jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+  
+  }
+  
+  
+  74%{
+    
+    background-image:url("carrosel/ia/ia (18).jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+   
+  }
+  
+  75%{
+   
+    background-image:url("carrosel/ia/ia (19)");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    
+  }
+  
+  
+  
+  80%{
+   
+    background-image:url("carrosel/ia/ia (20)");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+  
+  }
+  
+  
+  90%{
+    
+    background-image:url("carrosel/ia/ia (21)");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+   
+  }
+  
+  
+  92%{
+   
+    background-image:url("carrosel/ia/ia (22)");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+  
+  }
+  
+  
+  95%{
+    
+    background-image:url("carrosel/ia/ia (23)");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+  }
+  
+
+
+  98%{
+    
+    background-image:url("carrosel/ia/ia (24)");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+  }
+  
+  100%{
+    
+    background-image:url("carrosel/ia/ia (25)");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+  
+    
+  }
+  
+  }
+  
+    /*_________________________________________________________________*/
+
+
+    
 /*animaçao footer*/
 @keyframes footer{
 
@@ -175,7 +952,7 @@
 
 }
 
-  /*_________________________________________________________________*/
+     /*_________________________________________________________________*/
   
 
 body{
@@ -798,6 +1575,7 @@ section#_mobi {
 
       
       section#_0 {
+
         display:flex;
         position:relative;
         top:400px;
@@ -816,6 +1594,17 @@ section#_mobi {
           padding:10px;
           border-radius:10px;
         }
+
+
+        section#_0 div#anim{
+          position:absolute;
+          width:1980px;
+          height:900px;
+           
+    
+    
+         }
+      
 
         div#radios input{
 
@@ -1439,6 +2228,12 @@ section#_0 {
   align-items: center;
 
   }
+  section#_0 div#anim{
+    position:absolute;
+    width:3800px;
+    height:1800px;
+
+   }
 
   section#_0 div#radios{
 
@@ -2088,6 +2883,15 @@ section#_0 img#main{
       padding:10px;
       border-radius:10px;
     }
+
+    section#_0 div#anim{
+      position:absolute;
+      width:1980px;
+      height:900px;
+       
+
+
+     }
   
     div#radios input{
   
@@ -2723,6 +3527,14 @@ img#icon{
         height:600px;
         justify-content: center;
         align-items: center;
+ 
+        }
+
+        section#_0 div#anim{
+         position:absolute;
+         width:1980px;
+         height:900px;
+    
         }
 
         section#_0 div#radios{
@@ -2733,41 +3545,42 @@ img#icon{
           top:700px;
           padding:10px;
           border-radius:10px;
+
         }
 
         div#radios input{
 
-          width: 15px;
-          height: 15px;
-  
+          width:  11px;
+          height: 11px;
+   
         }
 
        input#px_1[type="radio"]:checked{
          
          -webkit-appearance: none;
-          background-color: #4F4F4F;
-          border-radius:20px;
-          border: #EEE9E9 6px solid;
-          width: 18px;
+          background-color: #e20000;
+          border-radius:    20px;
+          border: #1e1e1e 6px solid;
+          width:  18px;
           height: 18px;
 
       }input#px_2[type="radio"]:checked{
           
-          -webkit-appearance: none;
-           background-color: #4F4F4F;
-           border-radius:20px;
-           border: #EEE9E9 6px solid;
-           width: 18px;
-           height: 18px;
+        -webkit-appearance: none;
+        background-color: #e20000;
+        border-radius:    20px;
+        border: #1e1e1e 6px solid;
+        width:  18px;
+        height: 18px;
  
        }input#px_3[type="radio"]:checked{
            
-           -webkit-appearance: none;
-            background-color: #4F4F4F;
-            border-radius:20px;
-            border: #EEE9E9 6px solid;
-            width: 18px;
-            height: 18px;
+        -webkit-appearance: none;
+        background-color: #e20000;
+        border-radius:    20px;
+        border: #1e1e1e 6px solid;
+        width:  18px;
+        height: 18px;
   
         }
 
@@ -2775,7 +3588,6 @@ img#icon{
         
         width:1980px;
         
-       
       }
 
       /*________________*/
@@ -3188,9 +4000,6 @@ section#_1 {
       width:100px;
       top:140px;
       left:300px;
-
-        
-
     }
   
     section#_1 div#text p{
@@ -3201,11 +4010,9 @@ section#_1 {
       color:white;
       box-shadow: 5px 10px #888888;
       padding-right: 20px;
-
       
     }
  
-
 /*################################################################################################################*/
         
 section#_mobi {
@@ -3229,14 +4036,12 @@ section#_mobi div#radios{
   border-radius:10px;
 }
 
-
  div#radios_2 input{
 
   width: 15px;
   height: 15px;
 
 }
-
 
 section#_0 {
   display:flex;
@@ -3248,6 +4053,13 @@ section#_0 {
   justify-content: center;
   align-items: center;
   }
+
+  section#_0 div#anim{
+    position:absolute;
+    width:1980px;
+    height:900px;
+
+   }
 
 section#_0 div#radios{
 
@@ -3261,39 +4073,40 @@ section#_0 div#radios{
 
 div#radios input{
 
-  width: 15px;
-  height: 15px;
+  width:  11px;
+  height: 11px;
 
 }
 
 input#px_1[type="radio"]:checked{
  
  -webkit-appearance: none;
-  background-color: #4F4F4F;
-  border-radius:20px;
-  border: #EEE9E9 6px solid;
-  width: 18px;
+  background-color: #e20000;
+  border-radius:    20px;
+  border: #1e1e1e 6px solid;
+  width:  18px;
   height: 18px;
 
 }input#px_2[type="radio"]:checked{
   
-  -webkit-appearance: none;
-   background-color: #4F4F4F;
-   border-radius:20px;
-   border: #EEE9E9 6px solid;
-   width: 18px;
-   height: 18px;
+-webkit-appearance: none;
+background-color: #e20000;
+border-radius:    20px;
+border: #1e1e1e 6px solid;
+width:  18px;
+height: 18px;
 
 }input#px_3[type="radio"]:checked{
    
-   -webkit-appearance: none;
-    background-color: #4F4F4F;
-    border-radius:20px;
-    border: #EEE9E9 6px solid;
-    width: 18px;
-    height: 18px;
+-webkit-appearance: none;
+background-color: #e20000;
+border-radius:    20px;
+border: #1e1e1e 6px solid;
+width:  18px;
+height: 18px;
 
 }
+
 
 section#_0 img#main{
 
@@ -4067,28 +4880,28 @@ width:auto;
 
      input#px_10[type="radio"]:checked{
        
-       -webkit-appearance: none;
-        background-color: #4F4F4F;
-        border-radius:20px;
-        border: #EEE9E9 6px solid;
+        -webkit-appearance: none;
+        background-color: #e20000;
+        border-radius:    20px;
+        border: #1e1e1e 6px solid;
         width: 38px;
         height: 38px;
 
     }input#px_20[type="radio"]:checked{
         
         -webkit-appearance: none;
-         background-color: #4F4F4F;
-         border-radius:20px;
-         border: #EEE9E9 6px solid;
+        background-color: #e20000;
+        border-radius:    20px;
+        border: #1e1e1e 6px solid;
          width: 38px;
          height: 38px;
 
      }input#px_30[type="radio"]:checked{
          
          -webkit-appearance: none;
-          background-color: #4F4F4F;
-          border-radius:20px;
-          border: #EEE9E9 6px solid;
+         background-color: #e20000;
+         border-radius:    20px;
+         border: #1e1e1e 6px solid;
           width: 38px;
           height: 38px;
 
@@ -4439,39 +5252,41 @@ section#last {
       border-radius:10px;
     }
 
+
     div#radios input{
 
-      width: 15px;
-      height: 15px;
+      width:  11px;
+      height: 11px;
 
     }
+
 
    input#px_1[type="radio"]:checked{
      
      -webkit-appearance: none;
-      background-color: #4F4F4F;
-      border-radius:20px;
-      border: #EEE9E9 6px solid;
-      width: 18px;
+      background-color: #e20000;
+      border-radius:    20px;
+      border: #1e1e1e 6px solid;
+      width:  18px;
       height: 18px;
 
   }input#px_2[type="radio"]:checked{
       
-      -webkit-appearance: none;
-       background-color: #4F4F4F;
-       border-radius:20px;
-       border: #EEE9E9 6px solid;
-       width: 18px;
-       height: 18px;
+    -webkit-appearance: none;
+    background-color: #e20000;
+    border-radius:    20px;
+    border: #1e1e1e 6px solid;
+    width:  18px;
+    height: 18px;
 
    }input#px_3[type="radio"]:checked{
        
-       -webkit-appearance: none;
-        background-color: #4F4F4F;
-        border-radius:20px;
-        border: #EEE9E9 6px solid;
-        width: 18px;
-        height: 18px;
+    -webkit-appearance: none;
+    background-color: #e20000;
+    border-radius:    20px;
+    border: #1e1e1e 6px solid;
+    width:  18px;
+    height: 18px;
 
     }
 
