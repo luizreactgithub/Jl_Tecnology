@@ -1,38 +1,7 @@
 
-// LOAD
-var larguraTela = window.innerWidth;
 
-
-   //pra carregar mais tempo no 4k
-   if(larguraTela >= 3540){
-  
-     
-    
-    
- setTimeout(function() {
-
-  document.body.style.overflowY = "visible";
-  document.getElementById("loading").style.display= "none";
-
-
-
-  }, 4000)
-
-
-
-
-     
-    document.getElementById("loading").style.position= "relative";
-    document.getElementById("loading").style.display= "block";
-
- 
-
-    
-    document.body.style.overflowY = "hidden";
    
-    
-   
-   }else{
+
 
 
 
@@ -59,7 +28,7 @@ var larguraTela = window.innerWidth;
     document.body.style.overflowY = "hidden";
    
   
-   }
+   
   
   
 
