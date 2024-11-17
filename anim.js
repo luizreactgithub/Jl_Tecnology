@@ -1,4 +1,70 @@
 
+// LOAD
+var larguraTela = window.innerWidth;
+
+
+   //pra carregar mais tempo no 4k
+   if(larguraTela >= 3540){
+  
+     
+    
+    
+ setTimeout(function() {
+
+  document.body.style.overflowY = "visible";
+  document.getElementById("loading").style.display= "none";
+
+
+
+  }, 4000)
+
+
+
+
+     
+    document.getElementById("loading").style.position= "relative";
+    document.getElementById("loading").style.display= "block";
+
+ 
+
+    
+    document.body.style.overflowY = "hidden";
+   
+    
+   
+   }else{
+
+
+
+
+ setTimeout(function() {
+
+  document.body.style.overflowY = "visible";
+  document.getElementById("loading").style.display= "none";
+
+
+
+  }, 3000)
+
+
+
+
+     
+    document.getElementById("loading").style.position= "relative";
+    document.getElementById("loading").style.display= "block";
+
+ 
+
+    
+    document.body.style.overflowY = "hidden";
+   
+  
+   }
+  
+  
+
+  
+  
 
 
 //Passagem de imagens #######################################################################################################
@@ -21,21 +87,21 @@ setTimeout(function() {
 
   two();
   document.getElementById("anim").style.position="relative";
-}, 2000)
+}, 1000)
   
 
 setTimeout(function() {
 
   three();
   document.getElementById("anim").style.position="relative";
-}, 4000)
+}, 2000)
   
 
 setTimeout(function() {
 
   first();
   document.getElementById("anim").style.position="relative";
-}, 6000)
+}, 3000)
   
 
 // ***********************************************************************************************************/
