@@ -1,7 +1,8 @@
 
-// LOAD
 var larguraTela = window.innerWidth;
 
+// LOAD - Cancelado
+/*
 
    //pra carregar mais tempo no 4k
    if(larguraTela >= 3540){
@@ -16,7 +17,7 @@ var larguraTela = window.innerWidth;
 
 
 
-  }, 4000)
+  }, 0)
 
 
 
@@ -33,38 +34,39 @@ var larguraTela = window.innerWidth;
     
    
    }else{
+   }
+*/
 
 
 
 
- setTimeout(function() {
-
-  document.body.style.overflowY = "visible";
-  document.getElementById("loading").style.display= "none";
+   setTimeout(function() {
 
 
 
-  }, 3000)
+    document.getElementById("full").style.position="relative";
+    document.getElementById("full").style.animationName="footer";
+    document.getElementById("full").style.display="flex";
+    document.getElementById("full").style.animationDuration="1s";
+
+    document.getElementById("full").style.animationIterationCount="infinite";
+    document.getElementById("full").style.animationDelay="0s";
 
 
 
-
-     
-    document.getElementById("loading").style.position= "relative";
-    document.getElementById("loading").style.display= "block";
-
- 
 
     
-    //document.body.style.overflowY = "hidden";
-   
+    document.getElementById("footer").style.position="relative";
+    document.getElementById("footer").style.animationName="footer";
+    document.getElementById("footer").style.display="flex";
+    document.getElementById("footer").style.animationDuration="1s";
+
+    document.getElementById("footer").style.animationIterationCount="infinite";
+    document.getElementById("footer").style.animationDelay="0s";
   
-   }
-  
+    }, 100)
   
 
-  
-  
 
 
 //Passagem de imagens #######################################################################################################
@@ -83,25 +85,56 @@ document.getElementById("main").src="carrosel/unreal/unreal.jpg";
 
 // Jeito que eu encontrei de pré carregar a animação pra nao ficar com aquela animação curta e feia no inicio
 
-setTimeout(function() {
 
-  two();
-  document.getElementById("anim").style.position="relative";
-}, 1000)
-  
+
+//carrega as imagens do tamanho certo em 4k  
+if(larguraTela >= 3540){
+
+  document.getElementById("main").style.width="auto";
+  document.getElementById("main").style.height="1750px";
+
+}
+
+
+
 
 setTimeout(function() {
 
   three();
+
+
   document.getElementById("anim").style.position="relative";
-}, 2000)
+
+  var home=$(this).attr("full");
+  var posicao=$(home).offset().top;
+  
+  
+  $("html, body").animate({
+
+  scrollTop:posicao+280
+  },2000);
+
+  
+  
+}, 0)
+  
+
+setTimeout(function() {
+
+  two();
+  document.getElementById("anim").style.position="relative";
+
+}, 1000)
   
 
 setTimeout(function() {
 
   first();
   document.getElementById("anim").style.position="relative";
-}, 3000)
+
+
+
+}, 2000)
   
 
 // ***********************************************************************************************************/
@@ -182,44 +215,44 @@ function animation(){
 function animation_2(){
 
 
+
+   
  //suporte de imagem pra mobile 
  if(larguraTela <= 1220){
+  
+  document.getElementById("main_2").src="carrosel/mobile_ia/ia.jpg"; 
+
+       
    
-   document.getElementById("main_2").src="carrosel/mobile_gta/gta.jpg"; 
-
-         
-    
- }else{
-
-
-  document.getElementById("anim").style.position="absolute";
-  document.getElementById("anim").style.animationName="carrosel2";
-  document.getElementById("anim").style.display="flex";
-  document.getElementById("anim").style.animationDuration="1s";
-
-  document.getElementById("anim").style.animationIterationCount="infinite";
-  document.getElementById("anim").style.animationDelay="0s";
-
-  setTimeout(function() {
-
-
-   document.getElementById("anim").style.display="none";
-
-
- }, 970)
+}else{
 
 
 
+ 
+ document.getElementById("anim").style.position="absolute";
+ document.getElementById("anim").style.animationName="carrosel3";
+ document.getElementById("anim").style.display="flex";
+ document.getElementById("anim").style.animationDuration="1s";
 
-   document.getElementById("main").src="carrosel/gta/gta.jpg"; 
+ document.getElementById("anim").style.animationIterationCount="infinite";
+ document.getElementById("anim").style.animationDelay="0s";
+
+ setTimeout(function() {
 
 
+  document.getElementById("anim").style.display="none";
 
 
- }
+}, 970)
+
+  
+  document.getElementById("main").src="carrosel/ia/ia.jpg"; 
 
 
+  
+}
 
+   
     
 
 }
@@ -227,44 +260,44 @@ function animation_2(){
 function animation_3(){
 
 
-
-   
  //suporte de imagem pra mobile 
  if(larguraTela <= 1220){
-  
-   document.getElementById("main_2").src="carrosel/mobile_ia/ia.jpg"; 
+   
+  document.getElementById("main_2").src="carrosel/mobile_gta/gta.jpg"; 
 
         
-    
- }else{
-
-
-
-  
-  document.getElementById("anim").style.position="absolute";
-  document.getElementById("anim").style.animationName="carrosel3";
-  document.getElementById("anim").style.display="flex";
-  document.getElementById("anim").style.animationDuration="1s";
-
-  document.getElementById("anim").style.animationIterationCount="infinite";
-  document.getElementById("anim").style.animationDelay="0s";
-
-  setTimeout(function() {
-
-
-   document.getElementById("anim").style.display="none";
-
-
- }, 970)
-
    
-   document.getElementById("main").src="carrosel/ia/ia.jpg"; 
+}else{
 
 
-   
- }
+ document.getElementById("anim").style.position="absolute";
+ document.getElementById("anim").style.animationName="carrosel2";
+ document.getElementById("anim").style.display="flex";
+ document.getElementById("anim").style.animationDuration="1s";
 
-    
+ document.getElementById("anim").style.animationIterationCount="infinite";
+ document.getElementById("anim").style.animationDelay="0s";
+
+ setTimeout(function() {
+
+
+  document.getElementById("anim").style.display="none";
+
+
+}, 970)
+
+
+
+
+  document.getElementById("main").src="carrosel/gta/gta.jpg"; 
+
+
+
+
+}
+
+
+
 
 
     
@@ -272,6 +305,8 @@ function animation_3(){
 }
 
 function first(){
+
+
 
    document.getElementById("px_1").checked=true;
    document.getElementById("px_2").checked=false;
