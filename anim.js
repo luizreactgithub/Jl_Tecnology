@@ -98,12 +98,6 @@ if(larguraTela >= 3540){
 
 
 
-setTimeout(function() {
-
-  three();
-
-
-  document.getElementById("anim").style.position="relative";
 
   var home=$(this).attr("full");
   var posicao=$(home).offset().top;
@@ -114,27 +108,7 @@ setTimeout(function() {
   scrollTop:posicao+280
   },2000);
 
-  
-  
-}, 0)
-  
 
-setTimeout(function() {
-
-  two();
-  document.getElementById("anim").style.position="relative";
-
-}, 1000)
-  
-
-setTimeout(function() {
-
-  first();
-  document.getElementById("anim").style.position="relative";
-
-
-
-}, 2000)
   
 
 // ***********************************************************************************************************/
