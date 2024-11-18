@@ -21,7 +21,9 @@ var larguraTela = window.innerWidth;
 
 
 
-
+    animation()
+    animation2()
+    animation3()
      
     document.getElementById("loading").style.position= "relative";
     document.getElementById("loading").style.display= "block";
