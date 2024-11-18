@@ -56,7 +56,7 @@ var larguraTela = window.innerWidth;
  
 
     
-    document.body.style.overflowY = "hidden";
+    //document.body.style.overflowY = "hidden";
    
   
    }
