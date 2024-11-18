@@ -116,7 +116,7 @@ setTimeout(function() {
 
   
   
-}, 500)
+}, 0)
   
 
 setTimeout(function() {
