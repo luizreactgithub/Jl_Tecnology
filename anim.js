@@ -75,8 +75,8 @@ var timer_2
 var timer_3
 var picture;
 
-document.getElementById("main_2").src="carrosel/mobile_unreal/unreal.jpg"; 
-document.getElementById("main").src="carrosel/unreal/unreal.jpg"; 
+document.getElementById("main_2").src="carrosel/mobile_unreal/unreal.avif"; 
+document.getElementById("main").src="carrosel/unreal/unreal.avif"; 
 
 
 
@@ -150,7 +150,7 @@ function animation(){
  //suporte de imagem pra mobile 
    if(larguraTela <= 1220){
   
-      document.getElementById("main_2").src="carrosel/mobile_unreal/unreal.jpg"; 
+      document.getElementById("main_2").src="carrosel/mobile_unreal/unreal.avif"; 
     
    
    }else{
@@ -172,7 +172,7 @@ function animation(){
 
       }, 970)
 
-      document.getElementById("main").src="carrosel/unreal/unreal.jpg"; 
+      document.getElementById("main").src="carrosel/unreal/unreal.avif"; 
 
 
 
@@ -192,7 +192,7 @@ function animation_2(){
  //suporte de imagem pra mobile 
  if(larguraTela <= 1220){
   
-  document.getElementById("main_2").src="carrosel/mobile_ia/ia.jpg"; 
+  document.getElementById("main_2").src="carrosel/mobile_ia/ia.avif"; 
 
        
    
@@ -218,7 +218,7 @@ function animation_2(){
 }, 970)
 
   
-  document.getElementById("main").src="carrosel/ia/ia.jpg"; 
+  document.getElementById("main").src="carrosel/ia/ia.avif"; 
 
 
   
@@ -235,7 +235,7 @@ function animation_3(){
  //suporte de imagem pra mobile 
  if(larguraTela <= 1220){
    
-  document.getElementById("main_2").src="carrosel/mobile_gta/gta.jpg"; 
+  document.getElementById("main_2").src="carrosel/mobile_gta/gta.avif"; 
 
         
    
@@ -261,7 +261,7 @@ function animation_3(){
 
 
 
-  document.getElementById("main").src="carrosel/gta/gta.jpg"; 
+  document.getElementById("main").src="carrosel/gta/gta.avif"; 
 
 
 
