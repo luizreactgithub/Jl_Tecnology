@@ -97,18 +97,6 @@ if(larguraTela >= 3540){
 
 
 
-  var home=$(this).attr("full");
-  var posicao=$(home).offset().top;
-  
-  
-  $("html, body").animate({
-
-  scrollTop:posicao+280
-  },2000);
-
-
-  
-
 // ***********************************************************************************************************/
   
 
